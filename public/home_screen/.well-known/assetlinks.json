@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.ordo",
+      "sha256_cert_fingerprints": [
+        "9E:FF:2E:00:36:87:FF:8C:ED:13:0A:DE:19:45:0C:B1:7E:8B:77:B4:4A:6F:AF:10:F0:AE:33:05:96:25:CA:8E"
+      ]
+    }
+  }
+]
