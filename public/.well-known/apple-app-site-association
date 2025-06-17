@@ -1,13 +1,27 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "FX67JFGPY3.ozzo.app",
-        "paths": [
-          "*"
-        ]
-      }
-    ]
+    "applinks": {
+      "details": [
+        {
+          "appIDs": [ "FX67JFGPY3.ozzo", "FX67JFGPY3.ozzo.app" ],
+          "components": [
+            {
+              "#": "no_universal_links",
+              "exclude": true,
+              "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+            },
+            {
+              "/": "/*",
+              "comment": "Matches all paths."
+            }
+          ]
+        }
+      ]
+    },
+    "webcredentials": {
+      "apps": [ "FX67JFGPY3.ozzo" ]
+    },
+    "appclips": {
+      "apps": [ "FX67JFGPY3.ozzo.app" ]
+    }
   }
-}
+  

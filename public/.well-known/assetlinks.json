@@ -1,11 +1,14 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.example.ordo",
+      "package_name": "com.ozzo",
       "sha256_cert_fingerprints": [
-        "9E:FF:2E:00:36:87:FF:8C:ED:13:0A:DE:19:45:0C:B1:7E:8B:77:B4:4A:6F:AF:10:F0:AE:33:05:96:25:CA:8E"
+        "ED:B9:40:DC:42:6F:3E:81:C9:87:D6:5C:7F:D7:88:E3:B7:B4:9E:F5:B7:25:A5:EC:9A:3A:1B:03:5E:FA:17:9E",
+        "94:98:A8:67:63:3E:AA:90:DF:53:13:82:1F:BE:48:82:94:5D:4C:AA:41:99:33:12:E4:30:55:D9:E3:EC:5A:1E"
       ]
     }
   }
